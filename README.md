@@ -24,6 +24,8 @@ The first change I made was to define the div that contained all three elements 
 
 The final change I made in this section was to give each of the three images alt text - which I did in the HTML file. I made these fairly descriptive, focusing on the features of the images that give meaning to each of the articles they support.
 
+Having researched how to write alt text, I discovered there is a suggested upper character limit of 125, as some screen readers cut off at this point. I rewrote my descriptions to be more concise, in order to meet this guidance, and recommitted my work. 
+
 ### X. Additional Notes
 The first few commits didn't follow a consistent rule in terms of tense. I googled and tried to change to an imperative present tense ('as though you are telling the code what to do') from the 7th commit onwards.
 

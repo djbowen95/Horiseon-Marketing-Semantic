@@ -11,7 +11,18 @@ Before starting, I created a repository on GitHub and moved the core files - the
 I made too further commits to solve this: first, I imported the image files and uploaded those to the folder. Secondly, I moved the style.css file to its own css folder, so that it was where the HTML expected it to be. I chose to do this rather than modify the pathway in the HTML because I thought it would be better practice to keep the source pathway/the relation between the two files the same as it was in the given broken code.
 
 ### 1: Semantic HTML
-The first change I made to the HTML file was to change the first two <div> tags to <header> and <nav> tags respectively. I made corrosponding changes in the CSS file so that the formatting would remain the same: changing ".header" to "header" and ".nav" to "nav" at every occurance. I checked this in the Live Server and then committed these changes.   
+#### 1A: Header and Navigation
+The first change I made to the HTML file was to change the first two /'<div>' tags to '<header>' and '<nav>' tags respectively. I made corrosponding changes in the CSS file so that the formatting would remain the same: changing ".header" to "header" and ".nav" to "nav" at every occurance. I checked this in the Live Server and then committed these changes.
+
+#### 1B: Central Image
+The next set of changes centered on the central image to the webpage. This element was coded as a single line '<div>' in the broken code, with the image itself included as part of the css for this file. I decided not only to redefine this element as a figure, but to move the image from the CSS into the HTML file: so that I could improve accessibility to screen readers, and provide alternative text. The '<div>' was initially refered to by the class 'hero' - but I instead formatted my new image under the class 'central-image'; making it more obvious to other developers what the element being coded was. 
+
+### X. Additional Notes
+The first few commits didn't follow a consistent rule in terms of tense. I googled and tried to change to an imperative present tense ('as though you are telling the code what to do') from the 7th commit onwards.
+
+Next I worked on the central image on the webpage. For this element, I changed a '<div>' that was defined in the css into a '<figure>' element containing an image. The image was originally coded into the css file, as a background for this '<div>' element. I chose
+
+The div element had contained the image in the css file as a background , but I chose to code this image into the HTML: allowing me to 
 
 
 ### Breakdown of tasks:

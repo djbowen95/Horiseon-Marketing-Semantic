@@ -26,12 +26,11 @@ The final change I made in this section was to give each of the three images alt
 
 Having researched how to write alt text, I discovered there is a suggested upper character limit of 125, as some screen readers cut off at this point. I rewrote my descriptions to be more concise, in order to meet this guidance, and recommitted my work. 
 
+#### 1D: Side Bar 'Benefits' Section
+This section followed a similar pattern to the main body - and the process I used to improve accessibility was similar. I first changed the **div** elements to **section** and **article** tags, then I gave the images alt text. I gave the articles a shared class but left them with their own ID to make them easily identifiable to any future developers. In the CSS I edited the relevant classes to match the new labels I had given them - I also used my single shared class to considerably shorten the code. 
+
 ### X. Additional Notes
 The first few commits didn't follow a consistent rule in terms of tense. I googled and tried to change to an imperative present tense ('as though you are telling the code what to do') from the 7th commit onwards.
-
-Next I worked on the central image on the webpage. For this element, I changed a '<div>' that was defined in the css into a '<figure>' element containing an image. The image was originally coded into the css file, as a background for this '<div>' element. I chose
-
-The div element had contained the image in the css file as a background , but I chose to code this image into the HTML: allowing me to 
 
 
 ### Breakdown of tasks:

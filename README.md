@@ -10,13 +10,13 @@ Before starting, I created a repository on GitHub and moved the core files - the
 
 I made too further commits to solve this: first, I imported the image files and uploaded those to the folder. Secondly, I moved the style.css file to its own css folder, so that it was where the HTML expected it to be. I chose to do this rather than modify the pathway in the HTML because I thought it would be better practice to keep the source pathway/the relation between the two files the same as it was in the given broken code.
 
-#### 1: Header and Navigation
+### 1: Header and Navigation
 The first change I made to the HTML file was to change the first two /**div** tags to **header** and **nav** tags respectively. I made corrosponding changes in the CSS file so that the formatting would remain the same: changing ".header" to "header" and ".nav" to "nav" at every occurance. I checked this in the Live Server and then committed these changes.
 
-#### 2: Central Image
+### 2: Central Image
 The next set of changes centered on the central image to the webpage. This element was coded as a single line **div** in the broken code, with the image itself included as part of the css for this file. I decided not only to redefine this element as a **figure**, but to move the image from the CSS into the HTML file: so that I could improve accessibility to screen readers, and provide alternative text. The **div** was initially refered to by the class * *'hero'* * - but I instead formatted my new image under the class * *'central-image'* *; making it more obvious to other developers what the element being coded was. 
 
-#### 3: Main Body Content
+### 3: Main Body Content
 The next modifications I made were to the main body - the three **div** elements that were contained in one large **div**, that featured text which outlined the main products offered by Horiseon.
 
 The first change I made was to define the div that contained all three elements as a **section**; I then decided to name the three different posts about different marketing products as **article**. I gave the section the class * *'main content'* *. I then noticed that the formatting for all three articles was the same, so gave them one shared class: * *main content features* *. This allowed me to simplify the coding in the CSS: I changed the file so that all features shared the same formatting; I also moved all of the CSS that applied to this section together. I left each article with its own unique id too: although it wasn't necessary for the content in the style sheet, I felt it might be useful if another webpage needed to refer back to this content specifically.
@@ -25,17 +25,20 @@ The final change I made in this section was to give each of the three images alt
 
 Having researched how to write alt text, I discovered there is a suggested upper character limit of 125, as some screen readers cut off at this point. I rewrote my descriptions to be more concise, in order to meet this guidance, and recommitted my work. 
 
-#### 4: Side Bar 'Benefits' Section
+### 4: Side Bar 'Benefits' Section
 This section followed a similar pattern to the main body - and the process I used to improve accessibility was similar. I first changed the **div** elements to **section** and **article** tags, then I gave the images alt text. I gave the articles a shared class but left them with their own ID to make them easily identifiable to any future developers. In the CSS I edited the relevant classes to match the new labels I had given them - I also used my single shared class to considerably shorten the code.
 
-#### 5: Footer
+### 5: Footer
 The final section to reformat was the footer -  I change the final **div** tag remaining into a **footer** tag. The brief also stated that it wanted all the heading tags to appear in sequential order, so I changed this **h2** into an **h4**. I modified the CSS - changing **.footer** to **footer** and **.footer h2** to **footer h4**. The footer remained the same but now followed a more accessible and logical flow in the html index file. 
 
+### 6: Add Title
+The brief asked me to give the webpage a fitting title - I chose to go with *Horiseon: Our Products and Services*.
+
 ### X. Additional Notes
-The first few commits didn't follow a consistent rule in terms of tense. I googled and tried to change to an imperative present tense ('as though you are telling the code what to do') from the 7th commit onwards.
+The first few commit messages didn't follow a consistent rule in terms of tense. I googled and tried to change to an imperative present tense ('as though you are telling the code what to do') from the 7th commit onwards.
 
 
-### Breakdown of tasks:
+#### Breakdown of tasks:
 1: Read through and understand the HTML and CSS files.
 2: Add semantic HTML tags; read up on semantic HTML.
 3: Put all elements of HTML file in a logical structure.
